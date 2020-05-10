@@ -1,0 +1,11 @@
+[package]
+name = "git_cli"
+version = "0.1.0"
+authors = ["Alexander Milikovski <alexm33@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+git2 = "0.13.5"
+thiserror = "1.0.16"
+crossterm = "0.17.4"
+chrono = "0.4.11"
